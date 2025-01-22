@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+//Time for cod(I fucked up here) ing! time for coding! 
+[
+    {
+        "key": "enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestion",
+        "when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-acceptSelectedSuggestion",
+        "when": "acceptSuggestionOnEnter && suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    }
+]
